@@ -46,7 +46,7 @@ def Main():
 
         print ('Received from server: ' + data)
 
-        ques = raw_input('Do you wish to decode ? y/n')
+        ques = raw_input('Do you wish to decode ? (y/n): ')
 
         if ques.lower() == 'y':                                                 # To decode the message encoded by local encoder
             print ('decoded message: '+decode_(data.lower()))
